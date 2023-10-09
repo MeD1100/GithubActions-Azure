@@ -1,4 +1,4 @@
-name: CI
+name: manual-input-workflow
 
 on:
     workflow_dispatch:
