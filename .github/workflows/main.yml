@@ -1,10 +1,10 @@
 name: CI
 
 on:
-    push:
-        branches: none
-    pull_request:
-        branches: none
+    # push:
+    #     branches: none
+    # pull_request:
+    #     branches: none
 
     workflow_dispatch:
 
