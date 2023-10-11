@@ -22,7 +22,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
-  IMAGE_NAME: med1100/githubactions-Azure
+  IMAGE_NAME: med1100/githubactions-azure
   IMAGE_TAG: 1.0.${{ github.run_number }} # GITHUB_RUN_NUMBER }}
 
 
