@@ -63,18 +63,3 @@ jobs:
           template: 01-bicep-webapp/webapp-linux.bicep
           parameters: webAppName=${{ env.WEBAPP_NAME }}
           failOnStdErr: false
-
-    #   # Download the previously stored .net-app artifact
-    #   - name: Download artifact from previous build
-    #     uses: actions/download-artifact@v2
-    #     with:
-    #       name: .net-app
-    #       path: ./downloaded-artifact
-
-    #   # Deploy the downloaded artifact to Azure Web App
-    #   - name: Deploy to Azure Web App
-    #     uses: azure/webapps-deploy@v2
-    #     with:
-    #         app-name: ${{ env.AZURE_WEBAPP_NAME }}
-    #         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-    #         package: ./downloaded-artifact
